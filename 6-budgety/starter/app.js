@@ -241,7 +241,6 @@ var controller = (function (budgetCtrl, UICtrl) {
   var ctrlAddItem = function () {
     var input, newItem;
 
-    // TODO
     // 1. Get field input data
     input = UICtrl.getInput();
     if (input.description !== "" && !isNaN(input.value) && input.value > 0) {
